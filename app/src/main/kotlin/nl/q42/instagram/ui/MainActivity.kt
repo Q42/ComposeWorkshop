@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
                     Scaffold { contentPadding ->
                         Box(Modifier
                             .fillMaxSize()
-                            .padding(contentPadding.calculateTopPadding())) {
+                            .padding(contentPadding)) {
                             Home(dummyViewState)
                         }
                     }
