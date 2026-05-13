@@ -4,7 +4,7 @@ Welcome animal hackers!
 
 #### Before we start coding, please follow these steps at home:
 
-1. [Download Android Studio Meerkat](https://developer.android.com/studio) and install it.
+1. [Download Android Studio Panda](https://developer.android.com/studio) and install it.
 2. Open Android Studio. After opening, select `Clone Repository` on the top right.
 <img width="462" alt="image" src="https://github.com/user-attachments/assets/433abef8-6e2b-4abd-93da-7a8245ebcccc" />
 
