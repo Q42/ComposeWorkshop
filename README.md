@@ -1,6 +1,6 @@
 # Things to prepare at home
 
-Welcome animal hackers! 
+Welcome animal hackers!
 
 #### Before we start coding, please follow these steps at home:
 
