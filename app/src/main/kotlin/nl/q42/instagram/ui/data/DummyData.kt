@@ -1,8 +1,8 @@
 package nl.q42.instagram.ui.data
 
 import nl.q42.instagram.R
-import nl.q42.instagram.ui.home.FeedItemViewState
-import nl.q42.instagram.ui.home.HomeViewState
+import nl.q42.instagram.ui.homeContent.FeedItemViewState
+import nl.q42.instagram.ui.homeContent.HomeViewState
 
 val dummyBunnyItemViewState = FeedItemViewState(
     authorName = "nature._.images",

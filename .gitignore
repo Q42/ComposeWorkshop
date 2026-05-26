@@ -1,21 +1,41 @@
+# IntelliJ / Android Studio
 *.iml
-.gradle
-.kotlin
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/deploymentTargetSelector.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-/.idea/AndroidProjectSystem.xml
-/.idea/kotlinc.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/
+
+# Gradle
+.gradle/
+.kotlin/
+build/
+
+# Local configuration
 local.properties
 
+# Android
+/captures
+.externalNativeBuild/
+.cxx/
+
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Keystore files
+# *.jks
+# *.keystore
+
+# Log files
+*.log
+
+# Mac OS
+.DS_Store
+
+# Google Services (add back if you want to exclude sensitive config)
+# google-services.json
+
+# Fastlane
 fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
