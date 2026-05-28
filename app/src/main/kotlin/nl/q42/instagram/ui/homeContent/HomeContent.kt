@@ -58,55 +58,14 @@ fun HomeContent(viewState: HomeViewState) {
  */
 @Composable
 fun AnimalFeedItem(feedItem: FeedItemViewState) {
-    Card(modifier = Modifier.fillMaxWidth()) {
-        Column {
-            // Author row
-            Row(
-                modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                Image(
-                    painter = painterResource(feedItem.authorImage),
-                    contentDescription = feedItem.authorName,
-                    contentScale = ContentScale.Crop,
-                    modifier =
-                        Modifier
-                            .size(36.dp)
-                            .clip(CircleShape),
-                )
-                Spacer(modifier = Modifier.width(8.dp))
-                Column {
-                    Text(feedItem.authorName, style = MaterialTheme.typography.labelLarge)
-                    Text(feedItem.authorDescription, style = MaterialTheme.typography.bodySmall)
-                }
-            }
-
-            HorizontalDivider()
-
-            // Post image
-            Image(
-                painter = painterResource(feedItem.postImageId),
-                contentDescription = feedItem.postDescription,
-                contentScale = ContentScale.Crop,
-                modifier =
-                    Modifier
-                        .fillMaxWidth()
-                        .aspectRatio(1f),
-            )
-
-            // Post description and likes
-            Column(modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp)) {
-                Text(feedItem.postDescription, style = MaterialTheme.typography.bodyMedium)
-                Spacer(modifier = Modifier.height(4.dp))
-                Text(
-                    text = "${feedItem.numberOfLikes} likes",
-                    style = MaterialTheme.typography.labelMedium,
-                )
-            }
-        }
+    Column() {
+        Text(
+            text = "This is a InstAnimal post!",
+            style = MaterialTheme.typography.titleLarge,
+        )
+        Text("(It has ${feedItem.numberOfLikes} likes)")
     }
 }
-
 
 
 //Preview for the individual feed item
