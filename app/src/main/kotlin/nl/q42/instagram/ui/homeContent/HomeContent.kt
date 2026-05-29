@@ -44,7 +44,7 @@ fun HomeContent(viewState: HomeViewState) {
 
 /**
  * Composable for an individual InstAnimal feedItem.
- * One Individual  Post. You can create your onw card here!
+ * One Individual post. You can create your own card here!
  *
  *
  * It should probably show the following:
@@ -55,6 +55,9 @@ fun HomeContent(viewState: HomeViewState) {
  * The author of the post, including a profile picture
  * The amount of likes
  * More?
+ *
+ * You can find the data in the feedItem parameter.
+ * Style it how you like!
  */
 @Composable
 fun AnimalFeedItem(feedItem: FeedItemViewState) {
