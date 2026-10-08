@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "My Instagram"
-include ':app'
+include(":app")
