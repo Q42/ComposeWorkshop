@@ -1,6 +1,6 @@
 [versions]
-kotlin = "2.4.20"
-android-gradle = "9.4.1"
+kotlin = "2.4.21"
+android-gradle = "9.5.0"
 core-ktx = "1.19.1"
 lifecycle-runtime-ktx = "2.11.0"
 activity-compose = "1.13.0"
